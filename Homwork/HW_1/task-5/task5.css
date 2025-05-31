@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/2209187217/photo/aerial-view-of-blue-sky-and-clouds-from-airplane-window.jpg?s=2048x2048&w=is&k=20&c=IU62n5r-0IzVwGRb6V3CitrLtJA4xVtWsKX0TZkb25M=");
+    background-attachment: fixed;
+
+}
+h1{
+    margin-left: 500px;
+
+}
+h4{
+    margin-left: 100px;
+
+}
+img{
+    object-fit: cover;
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    /*margin: 20px;*/
+}
+span{
+     width: 60%;
+}
