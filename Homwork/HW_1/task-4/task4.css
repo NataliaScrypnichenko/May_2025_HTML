@@ -1,0 +1,13 @@
+p{
+    background-color: rgb(216,219,225);
+    width: 120px;
+    height: 100px;
+    font-size: 80px;
+    padding-left: 20px;
+
+    display: inline-block;
+    margin: 10px;
+}
+h2{
+    color: rgba(127, 125, 125, 0.99);
+}
