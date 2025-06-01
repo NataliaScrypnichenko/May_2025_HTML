@@ -5,7 +5,35 @@ body{
     height: 100vh;
 }
 .box{
-    width: 50%;
-    height:50%;
+    width: 200px;
+    height:200px;
+    /*margin: 0 10px;*/
 }
-
+.red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.red img{
+    width: 50%;
+}
+.red p{
+    /*text-align: center;*/
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.flex{
+    height: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    flex-direction: column-reverse;
+}
