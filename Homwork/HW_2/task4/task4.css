@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.shrift{
+    height:100vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #d2e3ec;
+}
+.shrift-rubik {
+    width: 200px;
+    height: 200px;
+    background: rgba(232, 163, 201, 0.99);
+    border: 3px solid rgba(232, 163, 201, 0.99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+}
+
+.shrift-sed{
+    width: 200px;
+    height: 200px;
+    background: rgba(232, 163, 201, 0.99);
+    border: 3px solid rgba(232, 163, 201, 0.99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+}
+
+.shrift-dancing{
+    width: 200px;
+    height: 200px;
+    background: rgba(232, 163, 201, 0.99);
+    border: 3px solid rgba(232, 163, 201, 0.99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
+.shrift-fjalla{
+    width: 200px;
+    height: 200px;
+    background: rgba(232, 163, 201, 0.99);
+    border: 3px solid rgba(232, 163, 201, 0.99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+}
+.shrift-indie{
+    width: 200px;
+    height: 200px;
+    background: rgba(232, 163, 201, 0.99);
+    border: 3px solid rgba(232, 163, 201, 0.99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+}
