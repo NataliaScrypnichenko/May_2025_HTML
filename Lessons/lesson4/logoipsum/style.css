@@ -196,7 +196,6 @@ header nav ul a{
     flex-direction: column;
     margin-right: 74px;
     margin-left: 60px;
-    background: #22C1C3;
 }
 .benchmarks h4{
     color: #19191B;
@@ -221,7 +220,6 @@ header nav ul a{
     justify-content: space-between;
     flex-direction: column;
     margin-right: 74px;
-    background: rgba(241, 177, 152, 0.87);
 }
 .pricing_audit h4{
     color: #19191B;
@@ -244,7 +242,6 @@ header nav ul a{
     justify-content: space-between;
     flex-direction: column;
     margin-right: 74px;
-    background: rgb(205, 227, 205);
 }
 .retention_audit h4{
     color: #19191B;
@@ -316,4 +313,184 @@ header nav ul a{
     border-radius: 10px;
     background: #F7F7FB;
 }
-/*_________________________________________________________________________*/
+/*_________________________get_cards________________________________________________*/
+.get_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 98px;
+    gap: 20px;
+}
+/*_______________starter_____________________________________________*/
+.starter{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+}
+.top{
+    margin: 34px 138px 22px 138px;
+    color: #696871;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+.starter h1{
+    margin: 0 102px 28px 102px;
+    color: #1D293F;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+.starter_text{
+    margin: 0 106px 36px 106px;
+    color: #696871;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+.starter button{
+    width: 285px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+}
+.starter button a{
+    width: 201px;
+    color: #5454D4;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+/*__________________________premium_____________________________________________________*/
+.premium{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+    width: 376px;
+    height: 473px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF7143;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+    color:white;
+}
+
+.top1{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+    margin: 50px 154px 22px 150px;
+}
+.premium h1{
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+     margin: 0 92px 28px 84px;
+}
+.premium h1 strong{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+.premium_text{
+    margin: 0 126px 36px 120px;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+.premium button{
+    width: 305px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: none;
+    background: #9F3919;
+}
+.premium button a {
+    width: 201px;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+/*_______________________________enterprise_________________________________________*/
+.enterprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+}
+.top2{
+    margin: 34px 124px 22px 126px;
+    color: #696871;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+.enterprise h1{
+    margin: 0 102px 28px 102px;
+    color: #1D293F;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+}
+.enterprise h1 strong{
+    color: #1D293F;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+.enterprise_text{
+    margin: 0 98px 36px 98px;
+    color: #696871;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+.enterprise button{
+    width: 285px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+}
+.enterprise button a {
+    width: 201px;
+    color: #5454D4;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
