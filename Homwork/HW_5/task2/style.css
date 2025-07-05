@@ -1,0 +1,80 @@
+body{
+    height:90vh;
+    width:1040px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url("https://thumbs.dreamstime.com/b/%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F-%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8F-%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-27614966.jpg");
+}
+.movement{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.ball{
+    height:108px;
+    animation: roll 10s linear infinite alternate;
+}
+@keyframes roll {
+    from {
+        transform: translateX(0) ;
+    }
+    5%{
+        transform: translateX(100px) ;
+    }
+    10%{
+        transform: translateX(150px) ;
+    }
+    15%{
+        transform: translateX(200px) ;
+    }
+    20%{
+        transform: translateX(250px) ;
+    }
+    25%{
+        transform: translateX(300px)
+    }
+    30%{
+            transform: translateX(350px) ;
+    }
+    35%{
+            transform: translateX(400px) ;
+    }
+    40%{
+            transform: translateX(450px)  ;
+    }
+    45%{
+            transform: translateX(500px)  ;
+    }
+    50%{
+            transform: translateX(550px) ;
+    }
+    55%{
+            transform: translateX(600px) ;
+    }
+    60%{
+            transform: translateX(650px)  ;
+    }
+    65%{
+            transform: translateX(700px)  ;
+    }
+    70%{
+            transform: translateX(750px)  ;
+    }
+    75%{
+        transform: translateX(800px)  ;
+    }
+    80%{
+        transform: translateX(850px)  ;
+    }
+    75%{
+        transform: translateX(900px)  ;
+    }
+    90% {
+        transform: translateX(950px);
+    }
+    to {
+        transform: translateX(1040px) ;
+    }
+}
