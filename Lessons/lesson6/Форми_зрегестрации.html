@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    label{
+      display: block;
+      margin-top: 10px;
+    }
+    form sup{
+       color: red;
+    }
+    textarea {
+      resize: none;
+      width: 60px;
+    /*  ширина і висота яка тут задана вона має більший пріоритет*/
+    }
+
+    /*input{*/
+    /*  width: 150px;*/
+    /*}*/
+  </style>
+</head>
+<body>
+<form class="form_registration">
+<!--  <label> ведіть своє ім'я-->
+<!-- <input type="text" name="" placeholder="name">-->
+<!--  </label>-->
+</form>
+<form>
+  <label for="name">ведіть своє ім'я</label>
+  <input type="text" name="anna" id="name" placeholder="name" required ><sup>*</sup>
+
+  <label for="email">Ведіть свій email</label>
+  <input type="email" name="email" id="email" placeholder="email@gmai.com" required ><sup>*</sup>
+
+  <label for="password">Ведіть свій password</label>
+  <input type="password" name="password" id="password" placeholder="dfg" required ><sup>*</sup>
+
+<!--  <input type="color" name="color">-->
+
+<!--  <input type="file" name="file">-->
+<!--  <input type="date">-->
+<!--  <input type="time">-->
+
+  <label for="age">Ведіть свій password</label>
+  <input type="number" name="age" id="age" min="18" max="100">
+  <label>Стать</label>
+  <label><input type="radio" name="gender" value="male">Чоловіча</label>
+  <label><input type="radio" name="gender" value="female">Жіноча</label>
+<!--для того щоб можна вибрати тільки один варіант name="gender" value="female"-->
+
+<!--  підписатися на розсилку-->
+  <label>
+    <input type="checkbox" name="newsletter" value="car"> Підписатися на новини
+  </label>
+<!--випадаючі списки (зробити свій вибір)-->
+  <label for="lorem">Країна</label>
+  <select id="lorem">
+    <option value="">оберіть країну</option>
+    <option value="ua">Україна</option>
+    <option value="usa">США</option>
+    <option value="ca">Канада</option>
+    <option value="uk">Великобританія</option>
+  </select>
+<!--  групувати варіанти які знаходяться в середині списка -->
+  <label for="phone"></label>
+   <select id="phone">
+     <optgroup label="Apple">
+         <option value="x">IPhone X</option>
+       <option value="xx">IPhone xx</option>
+       <option value="xs">IPhone xs</option>
+       <option value="xa">IPhone xa</option>
+       <option value="xd">IPhone xd</option>
+     </optgroup>
+     <optgroup label="Samsung">
+       <option value="23s">Samsung 23s</option>
+       <option value="34s">Samsung 34s</option>
+       <option value="45s">Samsung 45s</option>
+     </optgroup>
+   </select>
+
+<!--написати коментар-->
+  <label for="comment"></label>
+  <textarea id="comment" rows="4" cols="50">
+
+  </textarea>
+<!--все що тут прописали то можемо тут відправити-->
+<div>
+  <input type="submit" value="надіслати">
+  <input type="reset" value="скинути">
+</div>
+<!--  коли все це використати і можемо надіслати і побачимо його там де пишиться адреса браузера-->
+</form>
+</body>
+</html>
+<!--🔹 Основні атрибути для <input>:
+Атрибут	Опис
+type	Визначає тип введення: text, email, password, number, file, checkbox, radio, date, range, submit, тощо
+name	Ім’я поля (потрібне для відправки на сервер)
+value	Початкове значення поля
+placeholder	Текст-підказка всередині поля
+required	Поле обов’язкове для заповнення
+readonly	Поле доступне лише для читання
+disabled	Поле неактивне (не вводиться, не надсилається)
+maxlength	Максимальна кількість символів
+minlength	Мінімальна кількість символів
+min	Мінімальне значення (для number, date, range)
+max	Максимальне значення
+step	Крок значень (наприклад, 0.01 для ціни)
+pattern	Регулярний вираз для валідації введення
+autocomplete	Підказки від браузера (on, off, email, name, тощо)
+autofocus	Автоматичний фокус при завантаженні сторінки
+multiple	Дозволяє вибрати кілька значень (наприклад, кілька файлів)
+checked	Початковий стан вибраного елемента (checkbox, radio)
+size	Візуальна ширина текстового поля (у символах)
+list	ІD <datalist> для автозаповнення-->
