@@ -1,0 +1,20 @@
+body{
+    height:100vh;
+    background: #165651;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_registration{
+    width: 450px;
+    height: 450px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
