@@ -1,0 +1,18 @@
+.color li:nth-child(even){
+    color:pink;
+}
+.size li:nth-child(odd){
+    font-size: 22px;
+}
+.after li:nth-of-type(2n+4)::after {
+    content: "!";
+    /*додала сама тому що зливається*/
+    color: red;
+}
+.last li:last-child{
+    color: #ed37ed;
+}
+.first_letter li::first-letter{
+    font-size: 30px;
+    color: red;
+}
