@@ -16,6 +16,28 @@
       width: 60px;
       /*  ширина і висота яка тут задана вона має більший пріоритет*/
     }
+    .form_registration{
+      border: 5px solid black;
+      border-radius: 10px;
+      width: 50%;
+      padding: 40px;
+    }
+    input[type='text']{
+      border: 3px solid slateblue;
+      border-radius: 10px;
+      color: slateblue;
+      background-color: #d9f1d9;
+      font-family: "Bowlby One", sans-serif;
+    /*  не стилізується текст потрібно по іншому*/
+    }
+    input[type='text']::placeholder{
+      color:green;
+      font-family: "Bowlby One", sans-serif;
+    }
+  /*коли переміщаємо курсор то рамка також стає чорною то ми також можемо її змінити */
+    input[type='text']:focus{
+      outline: 3px solid red;
+    }
 
   </style>
 </head>
