@@ -1,0 +1,93 @@
+body{
+    height:100vh;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+.logo_instagram {
+    width: 700px;
+    height: 750px;
+    border: 2px solid #dbd8d8;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    flex-direction: column;
+    margin: 20px 15px 10px 15px;
+}
+.logo{
+     width: 350px;
+     height: 150px;
+    margin: 30px auto;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    border: 2px solid #dbd8d8;
+    border-radius: 5px;
+}
+.button{
+    width: 510px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #54aeff;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text h3{
+    color: #767272;
+    font-size: 20px;
+}
+.facebook{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.facebook p{
+    color: #3a5480;
+    font-size: 30px;
+    font-weight: 600;
+}
+.text h4{
+    color: #3a5480;
+    font-size: 25px;
+    font-weight: 500;
+}
+.not_instagram{
+    width: 700px;
+    height: 170px;
+    border: 2px solid #dbd8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 15px;
+}
+.not_instagram h2{
+    font-size: 30px;
+    font-weight: 510;
+    color: black;
+}
+.not_instagram span{
+    color: #54aeff;
+    font-weight: 700;
+}
