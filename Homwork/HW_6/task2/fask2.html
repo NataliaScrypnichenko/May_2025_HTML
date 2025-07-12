@@ -6,20 +6,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form class="form_registration">
+<div class="form_registration">
+  <div class="form_tame">
   <h2>Вхід в особистий кабінет</h2>
-  <label for="email"></label>
+  </div>
+
+  <form>
   <input type="email" name="email" id="email" placeholder="Логін або email">
-  <label for="password"></label>
   <input type="password" name="password" id="password" placeholder="Пароль">
+  </form>
 
   <div  class="checkbox_button">
     <label>
-      Запам'ятати мене <input type="checkbox" name="newsletter" value="car">
+      Запам'ятати мене <input type="checkbox" class="checkbox" >
     </label>
-    <button>Вхід</button>
+    <input type="submit" class="button" value="Вхід">
   </div>
 
-</form>
+</div>
 </body>
 </html>

@@ -1,20 +1,68 @@
 body{
     height:100vh;
-    background: #165651;
+    background: #31827d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.form_registration{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+.form_tame{
+    width: 500px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9f6f0;
+    border-radius: 10px;
+
+}
+.form_tame h2{
+    color: rgba(50, 48, 48, 0.99);
+    font-size: 30px;
+    font-weight: 300;
+
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form input{
+    width: 380px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.form_registration{
-    width: 450px;
-    height: 450px;
-    border: 1px solid #000;
+
+.checkbox_button{
+    width: 380px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-color: white;
+    margin-top: 20px;
 }
-label{
-    display: block;
-    margin-top: 10px;
+.checkbox{
+    width: 20px;
+    height: 15px;
+    margin-bottom: -2px;
+    border-radius: 2px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgba(127, 125, 125, 0.99);
+    border-radius: 10px;
+    background-color: #e9f6f0;
 }
