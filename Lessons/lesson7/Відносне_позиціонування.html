@@ -5,7 +5,16 @@
     <title>Title</title>
   <style>
     .item{
-      
+      width: 300px;
+        height: 300px;
+        background-color: lightcoral;
+        /*position: static; це так як написано в html послідовність,якщо в такому стані то
+         підтримують зет індек і підтримують переміщення*/
+        position: relative;
+        /*top: 100px;*/
+        /*top: -100px;*/
+        bottom: -80px;
+        z-index: -1;
     }
   </style>
 </head>
