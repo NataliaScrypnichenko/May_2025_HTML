@@ -128,13 +128,13 @@ p{
     box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
 }
 /*!*______________________________lorem________________________________________________________*!*/
-.lorem{
-    height:764px;
+.lorem-ipsum{
+    height: 764px;
     background: #071341;
-    padding: 50px 0 152px 0;
-    box-sizing: border-box;
+    /*padding: 50px 0 152px 0;*/
+    /*box-sizing: border-box;*/
 }
-.lorem__w_1153{
+.w-1153-lorem-ipsum{
     width:1153px;
     height:100%;
     margin: 0 auto;
@@ -142,16 +142,3 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-/*.cards_lorem{*/
-/*    width: 100%;*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-
-/*}*/
-/*.card{*/
-/*     display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    gap: 18px;*/
-/*}*/
