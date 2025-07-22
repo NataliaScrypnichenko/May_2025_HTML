@@ -91,7 +91,7 @@ h2{
     line-height: normal;
     letter-spacing: 1.8px;
 }
-p{
+.one_p{
     width: 570px;
     height: 85px;
     flex-shrink: 0;
@@ -128,21 +128,36 @@ p{
     box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
 }
 /*!*______________________________lorem________________________________________________________*!*/
-.lorem{
+.lorem-section{
     height: 764px;
     background: #071341;
-    /*padding: 50px 0 152px 0;*/
+    padding: 50px 0 152px 0;
     box-sizing: border-box;
 }
 .w-1153-lorem{
     width: 1153px;
     margin: 0 auto;
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
 .icons{
-
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+.icon div:nth-child(1){
+    width: 56.144px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:nth-child(1) div:nth-child(1){
 
 }
