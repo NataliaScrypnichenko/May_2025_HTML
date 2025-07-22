@@ -131,14 +131,14 @@ p{
 .lorem{
     height: 764px;
     background: #071341;
-    padding: 50px 0 152px 0;
+    /*padding: 50px 0 152px 0;*/
     box-sizing: border-box;
 }
 .w-1153-lorem{
     width: 1153px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: center;
     flex-direction: column;
 }
