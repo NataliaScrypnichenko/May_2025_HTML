@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 10px ;
+    }
+    section{
+        height: 10vh;
+        background: #22C1C3;
+        display: block;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    main, aside{
+        width: 100%;
+    }
+    main{
+        height: 60vh;
+    }
+    header, footer, aside{
+        height: 10vh;
+    }
+    header p::after{
+        content: 'mobile';
+    }
+
+}
