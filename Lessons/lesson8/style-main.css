@@ -1,0 +1,16 @@
+.item{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+.item-1{
+    background-color: rgba(209, 45, 224, 0.47);
+}
+.item-2{
+    background-color: rgba(100, 149, 237, 0.54);
+}
+.item-3{
+    background-color: green;
+}
+
+
