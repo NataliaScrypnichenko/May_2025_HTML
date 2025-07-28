@@ -1,0 +1,13 @@
+@media screen  and (min-width: 300px) and (max-width:480px) {
+    .paintings{
+        width: 379px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 40px;
+        padding: 32px 16px;
+    }
+    .painting{
+        width: 343px;
+    }
+}
