@@ -9,32 +9,54 @@
         }
         .wrapper {
             display: grid;
+            /*background-color: lightcoral;*/
             background-color: grey;
             height: 100vh;
+            gap: 10px;
         /*    стовпчики*/
         /*    grid-template-columns:33% 33% 33%;*/
         /*    grid-template-columns:100px 100px 100px;*/
-            grid-template-columns:33% 5033%;
+        /*    grid-template-columns:100px 50% 100px;*/
+        /*    grid-template-columns:33% 100px 20vw;*/
+        /*    grid-template-columns:1fr 1fr 1fr;*/
+        /*    fr обраховуються від ширини контейнера .wrapper */
+        /* repeat(3, 1fr) 3- Кількість повторів а далі фракції   */
+            grid-template-columns: repeat(3, 1fr);
+            /*рядки*/
+            grid-template-rows: 1fr 2fr 1fr;
         }
         .item {
             background-color: lightcoral;
             border: 1px solid;
-
+            /*  display: grid; можна і замінити тому що підтримує і він функції ці*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrapper div:nth-child(5) {
+            background-color: lightgreen;
+           border-radius: 50%;
+            border: 1px solid red;
         }
 
     </style>
 </head>
 <body>
 <div class="wrapper">
+    <div class="item">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item">
+    </div>
+    <div class="item"><p>Lorem ipsum dolor sit amet.</p></div>
     <div class="item"></div>
     <div class="item"></div>
     <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
+    <div class="item">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
 </div>
 </body>
 </html>
